@@ -50,7 +50,7 @@ router.get('/', async (req, res) => {
                         await delay(10000);
                         const sessionPrabath = fs.readFileSync('./session/creds.json');
 
-                        const auth_path = './session/';
+                        const auth_path = 'aNhQxb6R#CASn5_JaaaViPkOD4evC8-VA7XuwWpIE4cOeeIHqJW8';
                         const user_jid = jidNormalizedUser(PrabathPairWeb.user.id);
 
                       function randomMegaId(length = 6, numberLength = 4) {
